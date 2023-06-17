@@ -33,7 +33,7 @@ struct SegTree{
         }
     }
 
-//::::::::::: range update point query:::::::::::::::::::::
+//::::::::::: point update range query:::::::::::::::::::::
 
     T query(int s,int e,int l,int r,int i)
     {
