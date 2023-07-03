@@ -36,7 +36,7 @@ int main()
         adj[u].pb({v,w});
     }
  
-    ll inf=1e18L;
+    ll inf = 1e18L;
     vector<ll>dp(n+1,inf); 
     // dp[i] -> shortest distance from source to node i
  
