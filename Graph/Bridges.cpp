@@ -61,7 +61,6 @@ int main()
     			// backedge from curr to nxt.first
     			low[curr]=min(low[curr],in_time[nxt.first]);
     		}
-            
 			low[curr]=min(low[curr],low[nxt.first]);
 			if(low[nxt.first]>in_time[curr])
 			{
