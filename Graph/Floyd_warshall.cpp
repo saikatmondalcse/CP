@@ -20,7 +20,7 @@ typedef long long ll;
 #define deba2(x,n,m) 
 #define debe(x) 
 #endif
-ll inf=1e18L;
+ll inf = 1e18L;
  
 int main()
 {
