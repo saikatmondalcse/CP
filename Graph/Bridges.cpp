@@ -26,7 +26,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n,m;
+    int n, m;
     cin>>n>>m;
     vector<array<int,2>>edges(m);
     vector<pair<int,int>>adj[n+1];
