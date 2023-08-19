@@ -1,4 +1,5 @@
- // length of shortest cycle
+// O (V.(E+V))
+// length of shortest cycle
   int inf=1e9;
   int cycle=inf;
   for(int i=1;i<=n;i++)
