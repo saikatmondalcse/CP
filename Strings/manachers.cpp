@@ -39,18 +39,18 @@ struct Manacher{
 
 	bool checkpalindrome(int l,int r){
 		bool flag=false;
-        int len=r-l+1;
-        int mid=(l+r)/2;
-        if(len&1)
-        {
-            if(odd[mid]>=mid-l+1)
-                flag=true;
-        }
-        else
-        {
-            if(even[mid]>=mid-l+1)
-                flag=true;
-        }
-        return flag;
+		int len=r-l+1;
+		int mid=(l+r)/2;
+		if(len&1)
+		{
+			if(odd[mid]>=mid-l+1)
+				flag=true;
+		}
+		else
+		{
+			if(even[mid]>=mid-l+1)
+				flag=true;
+		}
+		return flag;
 	}
 };
